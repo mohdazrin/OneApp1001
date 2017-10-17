@@ -34,12 +34,7 @@
     });
     
         /* graphic button  #op-student-01 */
-    $(document).on("click", "#op-student-01", function(evt)
-    {
-         /*global activate_page */
-         activate_page("#studentMenu"); 
-         return false;
-    });
+    
     
         /* button  #op-staffOSidebar */
     $(document).on("click", "#op-staffOSidebar", function(evt)
@@ -186,6 +181,14 @@
 
         activate_page("#mainpage"); 
         /* your code goes here */ 
+         return false;
+    });
+    
+        /* graphic button  #op-student-01 */
+    $(document).on("click", "#op-student-01", function(evt)
+    {
+         /*global activate_page */
+         activate_page("#studentMenu"); 
          return false;
     });
     
