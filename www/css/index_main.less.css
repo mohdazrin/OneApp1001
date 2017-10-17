@@ -667,7 +667,7 @@ body#afui .splt {
 }
 @media all and (min-width: 0px) {
   .row-height-4 > .col > .content-area {
-    min-height: 100px;
+    min-height: 540px;
   }
 }
 @media all {
